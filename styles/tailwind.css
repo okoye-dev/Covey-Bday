@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Raleway", sans-serif;
+  transition: 200ms all ease-in-out;
+}
+.scribble {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.credits {
+  color: #fff;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.floating-image {
+  svg {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
